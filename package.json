@@ -15,8 +15,8 @@
     "url": "https://github.com/ddopson/node-segfault-handler.git"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
-    "nan": "^2.14.0"
+    "bindings": "^1.5.0",
+    "nan": "^2.26.2"
   },
   "main": "index.js",
   "types": "index.d.ts",
