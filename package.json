@@ -5,6 +5,9 @@
   "maintainers": [
     "William Lahti <liam@astronautlabs.com>"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Kenneth Geisshirt <geisshirt@gmail.com>",
   "contributors": [
     "Dave Dopson <ddopson@gmail.com>",
