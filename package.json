@@ -1,18 +1,22 @@
 {
-  "name": "segfault-handler",
+  "name": "@astronautlabs/segfault-handler",
   "description": "catches SIGSEGV and prints diagnostic information",
-  "version": "1.3.0",
+  "version": "1.0.0",
+  "maintainers": [
+    "William Lahti <liam@astronautlabs.com>"
+  ],
   "author": "Kenneth Geisshirt <geisshirt@gmail.com>",
   "contributors": [
     "Dave Dopson <ddopson@gmail.com>",
     "Mark Smith <msmith@rallydev.com>",
     "David Swift <dswift@pccowboy.com>",
     "Anton Whalley <anton@venshare.com>",
-    "Kenneth Geisshirt <geisshirt@gmail.com>"
+    "Kenneth Geisshirt <geisshirt@gmail.com>",
+    "William Lahti <liam@astronautlabs.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddopson/node-segfault-handler.git"
+    "url": "https://github.com/astronautlabs/segfault-handler.git"
   },
   "dependencies": {
     "bindings": "^1.5.0",
