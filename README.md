@@ -1,4 +1,7 @@
-# Overview
+# @/segfault-handler
+
+> Originally based on `segfault-handler` (https://github.com/ddopson/node-segfault-handler).
+> Forked primarily for use in Astronaut Labs Broadcast Suite (ALBS). Feel free to use it for your own purposes as well.
 
 This module is a critical tool for debugging Node.js C/C++ native code modules, and is safe to use in production environments.  Normally, when a bug is triggered in native code, the node process simply ends with no helpful information.  In production, this can manifest as worker processes restarting for seemingly no reason.  Running node in gdb is messy and infeasible for a production environment.  Instead this module will sit unobtrusively doing nothing (zero perf impact) as long as Node is well-behaved.  If a SIGSEGV signal is raised, the module will print a native stack trace to both STDERR and to a timestamped file (STDERR is usually ignored in production environments; files are better).
 
@@ -78,7 +81,8 @@ Cheers, enjoy.  And happy hunting.
 * Paul-Maxime (@paul-maxime)
 * Ștefan-Gabriel Muscalu (@legraphista)
 * Matt Esch (@Matt-Esch)
-* Kenneth Geisshirt (@kneth): current maintainer
+* Kenneth Geisshirt (@kneth)
+* William Lahti (@rezonant): current maintainer
 
 If you are a contributor and are missing, please create a pull request.
 

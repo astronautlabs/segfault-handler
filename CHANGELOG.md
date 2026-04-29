@@ -1,5 +1,14 @@
 ### Next (YYYY-mm-dd)
 
+### 1.0.0 (2026-04-29)
+
+Forked to `@astronautlabs/segfault-handler` primarily for use in Astronaut Labs Broadcast Suite (ALBS). Feel free to 
+use it for your own purposes as well.
+
+# Old Versions
+
+These versions are published as `segfault-handler` on NPM originally from https://github.com/ddopson/node-segfault-handler
+
 ### 1.3.0 (2019-06-25)
 
 * [PR#65](https://github.com/ddopson/node-segfault-handler/pull/65) - Add TypeScript definitions.
